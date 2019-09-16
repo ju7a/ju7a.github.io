@@ -636,10 +636,6 @@ input[type='checkbox'] {
 	font: 700 0.75rem/2rem "Montserrat", sans-serif;
 	transition: all 0.2s;
 }
-.navbar-custom.top-nav-collapse .navbar-brand.logo-image img {
-	width: 113px!important;
-	height: 34px!important;
-}
 .navbar-custom .navbar-brand.logo-image img {
 	width: 113px;
 	height: 60px;
@@ -762,7 +758,7 @@ input[type='checkbox'] {
 }
 
 .header .header-content {
-	padding-top: 8.5rem;
+	padding-top: 10.5rem;
 	padding-bottom: 7rem;
 	text-align: center;
 }
@@ -1553,14 +1549,33 @@ a:hover.back-to-top {
 
 
 	/* Navigation */
+    .navbar-custom .logo-image.light-logo img {
+        display: none;
+    }
+
+    .navbar-custom.top-nav-collapse .logo-image.light-logo img {
+        display: inline;
+    }
+
+    .navbar-custom.top-nav-collapse .navbar-brand.logo-image img {
+        width: 113px!important;
+        height: 34px!important;
+    }
+
+    .navbar-custom.top-nav-collapse .logo-image.dark-logo img {
+        display: none;
+    }
+
 	.navbar-custom .navbar-brand.logo-image img {
 		width: 200px;
 		height: 135px;
 	}
+
 	.nav-tabs .nav-item {
 		margin: 0 15px;
 		width: unset;
 	}
+
 	.navbar-custom {
 		padding: 2.125rem 1.5rem 2.125rem 2rem;
 		box-shadow: none;
