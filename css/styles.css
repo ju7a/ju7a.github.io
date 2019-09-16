@@ -1,6 +1,10 @@
-/* Template: Juno - Multipurpose Landing Page Pack
-   Author: abouhanna.comThemes
-   Created: Mar 2019
+/*****************************************
+		M E M E N T O   M O R I
+/*****************************************/
+
+/* Template: Cognitive 360
+   Author: abouhanna.com
+   Created: Sep 2019
    Description: Master CSS file
 */
 
@@ -1456,7 +1460,7 @@ a:hover.back-to-top {
 .ex-header {
 	padding-top: 8rem;
 	padding-bottom: 5rem;
-	background: linear-gradient(to bottom right, #2c1a7e, #5557db);
+	background: #F1F1F1;
 	text-align: center;
 }
 
@@ -1750,6 +1754,11 @@ a:hover.back-to-top {
 	.ex-header {
 		padding-top: 11rem;
 		padding-bottom: 9rem;
+	}
+
+	.ex-header.cpf {
+		padding-top: 18rem;
+		padding-bottom: 4rem;
 	}
 
 	.ex-basic-2 .text-container.dark {
@@ -2111,9 +2120,15 @@ a:hover.back-to-top {
 
 	/* Extra Pages */
 	.ex-header h1 {
-		width: 60%;
+		width: 80%;
 		margin-right: auto;
 		margin-left: auto;
+	}
+
+	.ex-header.cpf h1 {
+		width: 80%;
+		font-size: 32px;
+		color: #2A0844;
 	}
 
 	.ex-basic-2 .form-container {
