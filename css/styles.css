@@ -150,9 +150,9 @@ a.white {
 }
 
 .btn-solid-lg:hover {
-	background-color: transparent;
-	color: #fdc11b;
-	text-decoration: none;
+    text-decoration: none;
+    box-shadow: unset!important;
+    transform: translate(-2px, 2px);
 }
 
 .btn-solid-lg .fab {
@@ -782,6 +782,7 @@ input[type='checkbox'] {
 .header .btn-solid-lg {
 	margin-right: 0.5rem;
 	margin-bottom: 1.25rem;
+    box-shadow: -2px 3px 0 rgba(91, 62, 154, 0.85);
 }
 
 
