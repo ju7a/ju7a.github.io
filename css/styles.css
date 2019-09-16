@@ -641,8 +641,8 @@ input[type='checkbox'] {
 	height: 34px!important;
 }
 .navbar-custom .navbar-brand.logo-image img {
-	width: 200px;
-	height: 135px;
+	width: 113px;
+	height: 60px;
 	margin-bottom: 1px;
 	-webkit-backface-visibility: hidden;
 }
@@ -1553,6 +1553,10 @@ a:hover.back-to-top {
 
 
 	/* Navigation */
+	.navbar-custom .navbar-brand.logo-image img {
+		width: 200px;
+		height: 135px;
+	}
 	.nav-tabs .nav-item {
 		margin: 0 15px;
 		width: unset;
