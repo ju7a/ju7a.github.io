@@ -248,8 +248,8 @@
             csubmitMSG(false, "Please fill all fields!");
         } else {
             // everything looks good!
-            event.preventDefault();
-            csubmitForm();
+            // event.preventDefault();
+            // csubmitForm();
         }
     });
 
@@ -261,8 +261,8 @@
         var terms = $("#cterms").val();
         $.ajax({
             type: "POST",
-            url: "php/contactform-process.php",
-            data: "name=" + name + "&email=" + email + "&message=" + message + "&terms=" + terms, 
+            url: "https://formspree.io/mbnjknpm",
+            data: "name=" + name + "&email=" + email + "&message=" + message + "&terms=" + terms,
             success: function(text) {
                 if (text == "success") {
                     cformSuccess();
