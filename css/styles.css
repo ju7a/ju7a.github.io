@@ -68,13 +68,13 @@ body, p {
 }
 
 h1 {
-	color: #f1f1f8;
-	font: 700 2.5rem/2.875rem "Montserrat", sans-serif;
+	color: #2A0844;
+	font: 700 1.5rem/1.65rem "Montserrat", sans-serif;
 }
 
 h2 {
 	color: #f1f1f8;
-	font: 700 2.25rem/2.75rem "Montserrat", sans-serif;
+	font: 700 1.25rem/1.75rem "Montserrat", sans-serif;
 }
 
 h3 {
@@ -83,7 +83,7 @@ h3 {
 }
 
 h4 {
-	color: #f1f1f8;
+	color: #2A0844;
 	font: 700 1.375rem/1.75rem "Montserrat", sans-serif;
 }
 
@@ -247,7 +247,13 @@ a.white {
 	cursor: text;
 	transition: all 0.2s ease;
 }
-
+.list-unstyled.li-space-lg {
+	color: #f1f1f8;
+}
+.ex-basic-2.home {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
 /* IE10+ hack to solve lower label text position compared to the rest of the browsers */
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
 	.label-control {
@@ -1335,7 +1341,7 @@ input[type='checkbox'] {
 /*     16. Contact     */
 /***********************/
 .form {
-	padding-top: 6.25rem;
+	padding-top: 4.25rem;
 	padding-bottom: 5.625rem;
 	background: url('../images/contact-background.jpg') center bottom no-repeat;
 	background-size: cover; 
@@ -1458,20 +1464,26 @@ a:hover.back-to-top {
 /*     19. Extra Pages     */
 /***************************/
 .ex-header {
-	padding-top: 8rem;
-	padding-bottom: 5rem;
+	padding-top: 10rem;
+	padding-bottom: 3.5rem;
 	background: #F1F1F1;
 	text-align: center;
 }
 
 .ex-basic-1 {
-	padding-top: 2rem;
+	padding-top: 1.75rem;
 	padding-bottom: 0.875rem;
-	background-color: #2f2c3d;
+	background-color: #d9d9d9db;
+	color: #000;
+	opacity: 0.8;
 }
 
 .ex-basic-1 .breadcrumbs {
-	margin-bottom: 1.125rem;
+	margin-bottom: 0.60rem;
+}
+
+.ex-basic-1 .breadcrumbs a {
+	color: #000;
 }
 
 .ex-basic-1 .breadcrumbs .fa {
@@ -1480,9 +1492,10 @@ a:hover.back-to-top {
 }
 
 .ex-basic-2 {
-	padding-top: 4.75rem;
-	padding-bottom: 4rem;
-	background-color: #262431;
+	padding-top: 2.5rem;
+	padding-bottom: 3rem;
+	background-color: #F1F1F1;
+	color: #280849
 }
 
 .ex-basic-2-bg-0 {
@@ -1539,7 +1552,8 @@ a:hover.back-to-top {
 /*****************************/	
 /* Min-width width 768px */
 @media (min-width: 768px) {
-	
+
+
 	/* General Styles */
 	.p-heading {
 		width: 85%;
@@ -1552,6 +1566,10 @@ a:hover.back-to-top {
 	}
 	/* end of general styles */
 
+	h2 {
+		color: #f1f1f8;
+		font: 700 2.25rem/2.75rem "Montserrat", sans-serif;
+	}
 
 	/* Navigation */
     .navbar-custom .logo-image.light-logo img {
@@ -1608,7 +1626,7 @@ a:hover.back-to-top {
 	.navbar-custom.top-nav-collapse {
         padding: 0.5rem 1.5rem 0.5rem 2rem;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-		background-color: #290849e8;
+		background-color: #290849;
 	}
 
 	.navbar-custom.top-nav-collapse .navbar-brand.logo-text {
@@ -1638,8 +1656,12 @@ a:hover.back-to-top {
 	}
 	/* end of navigation */
 
+	.ex-basic-2 {
+		padding-top: 4.75rem;
+		padding-bottom: 4rem;
+	}
 
-	/* Header */
+		/* Header */
 	.header .header-content {
 		padding-top: 11rem;
 	}
@@ -1738,6 +1760,9 @@ a:hover.back-to-top {
 
 
 	/* Contact */
+	.form {
+		padding-top: 6.25rem;
+	}
 	.form .list-unstyled li {
 		display: inline-block;
 		margin-right: 0.5rem;
@@ -1757,8 +1782,8 @@ a:hover.back-to-top {
 	}
 
 	.ex-header.cpf {
-		padding-top: 18rem;
-		padding-bottom: 4rem;
+		padding-top: 14rem;
+		padding-bottom: 1.5rem;
 	}
 
 	.ex-basic-2 .text-container.dark {
@@ -2127,7 +2152,7 @@ a:hover.back-to-top {
 
 	.ex-header.cpf h1 {
 		width: 80%;
-		font-size: 32px;
+		font-size: 24px;
 		color: #2A0844;
 	}
 

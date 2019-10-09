@@ -1,0 +1,73 @@
+/*****************************************
+		M E M E N T O   M O R I
+/*****************************************/
+
+/* Template: Cognitive 360
+   Author: abouhanna.com
+   Created: Sep 2019
+   Description: Master CSS file
+*/
+/* FDC71F */
+.card-header {
+    border-top: 4px solid #491084;
+}
+.card-header.middle {
+    border-top: 4px solid #FDC11B;
+}
+.card-header h4 {
+    font-size: 16px;
+}
+.card-body .list-styled {
+    line-height: 1.6rem;
+    padding-left: 20px;
+}
+
+.card-body .list-styled li:first-child {
+    padding: 0;
+}
+
+.card-body .list-styled li {
+    padding: 8px 0;
+}
+
+.card.not-popping {
+    margin: 15px 0;
+}
+
+.card.popping {
+    margin-bottom: 40px!important;
+}
+
+.card-header {
+    padding-bottom: 25px;
+}
+
+.period-well {
+    padding: 4px 12px;
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) calc(0.25rem - 1px) calc(0.25rem - 1px);
+    color: #F3F3F3;
+    background: #491084;
+    display: inline-block;
+    margin: 10px 0 5px 0;
+    font-size: 14px;
+}
+
+.period-well.middle {
+    background: #FDC11B;
+}
+
+.services-header {
+    padding: 10px 0;
+    display: inline-block;
+    color: #491084;
+}
+
+.approach {
+    -webkit-text-decoration: #FDC11B solid underline;
+    text-decoration: #FDC11B solid underline;
+    -webkit-text-decoration-skip: ink;
+    text-decoration-skip: ink;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 2.85rem;
+}
