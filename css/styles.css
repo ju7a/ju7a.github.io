@@ -1666,7 +1666,11 @@ a:hover.back-to-top {
 		padding-top: 11rem;
 	}
 	/* end of header */
-
+    
+    /* jumbotron */
+    .main-title h1 {
+    font-size: 42px;
+    }
 
 	/* Testimonials */
 	.slider-1 .swiper-button-prev {
